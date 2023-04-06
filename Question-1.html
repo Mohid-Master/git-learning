@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first answer</title>
+</head>
+
+<body>
+    <a href="index.html">go Back</a><br>
+    1. Write a JavaScript program that accepts two numbers in two prompts and
+    displays the larger one in the console.
+
+    <script>
+        console.log(" 1. Write a JavaScript program that accepts two numbers in two prompts and displays the larger one in the console");
+        let firstNumber = +prompt("Enter the first number:");
+        let secondNumber = +prompt("Enter the second number:");
+
+        if (firstNumber > secondNumber) {
+            console.log("The first number is larger: " + firstNumber);
+        } else if (secondNumber > firstNumber) {
+            console.log("The second number is larger: " + secondNumber);
+        } else {
+            console.warn("The two numbers are equal.");
+        }
+    </script>
+</body>
+
+</html>

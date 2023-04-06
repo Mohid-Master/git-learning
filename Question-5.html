@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fifth answer</title>
+</head>
+
+<body>
+
+    <a href="index.html">go Back</a><br>
+    5. Write a JavaScript program which computes the average marks of the
+    following students Then, this average is used to determine the corresponding
+    grade.
+    <script>
+        // to determine the grade based on the average marks
+        let averageMarks = +prompt("Enter your average marks: ")
+        let Grade = "-";
+        if (averageMarks >= 100) {
+            console.log("above 100 is not allowed");
+        } else if (averageMarks >= 90) {
+            Grade = "A";
+        } else if (averageMarks >= 80) {
+            Grade = "B";
+        } else if (averageMarks >= 70) {
+            Grade = "C";z
+        } else if (averageMarks >= 60) {
+            Grade = "D";
+        } else {
+            Grade = "F";
+        }
+
+        // Display the letter grade
+        console.log("your grade: " + Grade);
+
+    </script>
+</body>
+
+</html>

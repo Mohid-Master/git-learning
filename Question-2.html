@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first answer</title>
+</head>
+
+<body>
+    <a href="index.html">go Back</a><br>
+    2. Write a JavaScript conditional statement to find the sign of a number. Display
+    an alert box with the specified sign.
+    Sample: 3
+    Output : The sign is +
+    Sample: -5
+    Output : The sign is -
+    <script>
+        let number = +prompt("Enter a number:");
+
+        if (number > 0) {
+            alert("The number is positive.");
+            console.log("+");
+        } else if (number < 0) {
+            alert("The number is negative.");
+            console.log("-");
+        } else {
+            alert("The number is zero.");
+            console.warn("0 is neutral");
+        }
+
+    </script>
+</body>
+
+</html>
