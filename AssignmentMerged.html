@@ -112,27 +112,27 @@
         }
 
         // Q5
-        // Determine the letter grade based on the average marks
-        let averageMarks = +prompt("Enter your average marks: ")
-        let letterGrade;
-        if (averageMarks >= 90) {
-            letterGrade = "A+";
+       // to determine the grade based on the average marks
+       let averageMarks = +prompt("Enter your average marks: ")
+        let Grade = "-";
+        if (averageMarks >= 100) {
+            console.log("above 100 is not allowed");
+        } else if (averageMarks >= 90) {
+            Grade = "A";
         } else if (averageMarks >= 80) {
-            letterGrade = "A";
+            Grade = "B";
         } else if (averageMarks >= 70) {
-            letterGrade = "B";
+            Grade = "C";z
         } else if (averageMarks >= 60) {
-            letterGrade = "C";
-        } else if (averageMarks >= 50) {
-            letterGrade = "D";
+            Grade = "D";
         } else {
-            letterGrade = "F";
+            Grade = "F";
         }
 
         // Display the letter grade
-        console.log("Letter grade: " + letterGrade);
+        console.log("your grade: " + Grade);
 
-
+    
         // Q6
         for (let i = 1; i <= 100; i++) {
             if (i % 3 === 0 && i % 5 === 0) {
